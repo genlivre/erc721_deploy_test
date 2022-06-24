@@ -15,7 +15,7 @@
 
 ## コントラクトのデプロイ
 ### localへのデプロイ
-```npx hardhat run scripts/NFT.js```
+```npx hardhat run scripts/deploy.js```
 
 ### Rinkebyへデプロイ
 ```npx hardhat run scripts/deploy.js --network rinkeby```
