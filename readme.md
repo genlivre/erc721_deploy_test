@@ -15,13 +15,13 @@
 
 ## コントラクトのデプロイ
 ### localへのデプロイ
-```npx hardhat run scripts/deploy.js```
+```npx hardhat run scripts/NFT.js```
 
 ### Rinkebyへデプロイ
 ```npx hardhat run scripts/deploy.js --network rinkeby```
 
 ### etherscan(Rinkeby)へverify
-```npx hardhat verify --network rinkeby デプロイしたコントラクトAddress```
+```npx hardhat verify --contract contracts/NFT.sol:NFT --network rinkeby デプロイしたコントラクトAddress```
 
 ### 再度verify
 ```npx hardhat clean```
